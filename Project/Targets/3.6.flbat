@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultBatchTarget
+  Version="1"
+  Comment="New Batch Target">
+  <Targets>
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="3.6.2"
+      Type="HTML5"
+      Build="false"
+      LastBuilt="2019-11-26T09:22:57.6200443-05:00" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="Adaptive Allocations"
+      Type="Word"
+      Build="true" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="Administrator Panel"
+      Type="Word"
+      Build="true" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="Allocation Size"
+      Type="Word"
+      Build="true" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="Allocations"
+      Type="Word"
+      Build="true" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="Allocations Rules Manager"
+      Type="Word"
+      Build="true" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="Assortment Planning"
+      Type="Word"
+      Build="true" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="Attribute Management"
+      Type="Word"
+      Build="true" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="Broker Dispatch"
+      Type="Word"
+      Build="true" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="Campaigns and Events"
+      Type="Word"
+      Build="true" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="Causals"
+      Type="Word"
+      Build="true" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="Classification"
+      Type="Word"
+      Build="true" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="Cluster Manager"
+      Type="Word"
+      Build="true" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="Cluster Site Manager"
+      Type="Word"
+      Build="true" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="Content Manager"
+      Type="Word"
+      Build="true" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="Content Versioning"
+      Type="Word"
+      Build="true" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="Currency and VAT Management"
+      Type="Word"
+      Build="true" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="Curves"
+      Type="Word"
+      Build="true" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="Dashboard"
+      Type="Word"
+      Build="true" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="Demand Forecasting"
+      Type="Word"
+      Build="true" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="Files"
+      Type="Word"
+      Build="true" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="Forecast Definition"
+      Type="Word"
+      Build="true"
+      LastBuilt="2019-11-26T13:00:10.9097574-05:00" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="Generic view Collection Set Manager"
+      Type="Word"
+      Build="true"
+      LastBuilt="2019-11-26T13:01:34.6880000-05:00" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="Group Forecasts"
+      Type="Word"
+      Build="true" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="Help"
+      Type="Word"
+      Build="true" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="Item Manager"
+      Type="Word"
+      Build="true" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="Languages"
+      Type="Word"
+      Build="true" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="Media Manager"
+      Type="Word"
+      Build="true" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="Merchandise Financial Planning"
+      Type="Word"
+      Build="true" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="Notifications"
+      Type="Word"
+      Build="true" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="Order Manager"
+      Type="Word"
+      Build="true" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="Ordering Constraints"
+      Type="Word"
+      Build="true" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="Policy"
+      Type="Word"
+      Build="true" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="Price Planning"
+      Type="Word"
+      Build="true" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="Profiles"
+      Type="Word"
+      Build="true" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="Promotion Management"
+      Type="Word"
+      Build="true" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="Rate of Sale Calculator"
+      Type="Word"
+      Build="true" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="Schedules"
+      Type="Word"
+      Build="true" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="Settings"
+      Type="Word"
+      Build="true" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="Site Manager"
+      Type="Word"
+      Build="true" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="Supplier"
+      Type="Word"
+      Build="true" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="System Policy"
+      Type="Word"
+      Build="true" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="Time Frames"
+      Type="Word"
+      Build="true" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="Users"
+      Type="Word"
+      Build="true" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="Views"
+      Type="Word"
+      Build="true" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="Workflow State Manager"
+      Type="Word"
+      Build="true" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="Workload Queue Manager"
+      Type="Word"
+      Build="true" />
+  </Targets>
+</CatapultBatchTarget>

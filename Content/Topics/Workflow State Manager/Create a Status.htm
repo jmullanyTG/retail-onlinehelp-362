@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+    </head>
+    <body>
+        <h1 >Create a Status</h1>
+        <p>Within the Workflow State Manager Configuration screen, click <span style="font-weight: bold;">New</span> to create a new Workflow Status, enter the required fields and click <span style="font-weight: bold;">Save</span>.</p>
+        <table class="TableStyle-jeTables" cellspacing="0" style="mc-table-style: url('../../Resources/TableStyles/jeTables.css');">
+            <thead>
+                <tr class="TableStyle-jeTables-Head-Header1">
+                    <th class="TableStyle-jeTables-HeadE-Column1-Header1">
+                        <p style="font-weight: bold;">Field</p>
+                    </th>
+                    <th class="TableStyle-jeTables-HeadD-Column1-Header1">
+                        <p style="font-weight: bold;">Description</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-jeTables-Body-Body1">
+                    <td class="TableStyle-jeTables-BodyE-Column1-Body1">
+                        <p>Status (<span style="color: #FF0000;">Required</span>)</p>
+                    </td>
+                    <td class="TableStyle-jeTables-BodyD-Column1-Body1">
+                        <p>Enter a descriptive label to summarize the purpose of the Status.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-jeTables-Body-Body2">
+                    <td class="TableStyle-jeTables-BodyE-Column1-Body2">
+                        <p>Is Start Node (Read Only)</p>
+                    </td>
+                    <td class="TableStyle-jeTables-BodyD-Column1-Body2">
+                        <p>The system will mark this checkbox only after Status Transitions have been defined and used to easily identify the configured starting Status.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-jeTables-Body-Body1">
+                    <td class="TableStyle-jeTables-BodyE-Column1-Body1">
+                        <p>Is End Node (Read Only)</p>
+                    </td>
+                    <td class="TableStyle-jeTables-BodyD-Column1-Body1">
+                        <p>The system will mark this checkbox only after Status Transitions have been defined and used to easily identify the configured ending Status before the system takes over.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-jeTables-Body-Body2">
+                    <td class="TableStyle-jeTables-BodyE-Column1-Body2">
+                        <p>Completion Days Out (<span style="color: #4F81BD;">Optional</span>)</p>
+                    </td>
+                    <td class="TableStyle-jeTables-BodyD-Column1-Body2">
+                        <p>The number of days prior from the solution object’s goal (i.e. Price &amp; Promotion = Start Date, Assortment = Receipt Date). The system will use this date to display a Status’ ‘due date’ but will not take any action on it unless a Trigger Method is defined.</p>
+                        <p>Negative values (indicating days <span style="font-style: italic;">after </span>the goal completion date) are allowed. For example, to create a status for Price &amp; Promotion that is due 5 days after the start date, enter “-5” as the Completion Days Out. </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-jeTables-Body-Body1">
+                    <td class="TableStyle-jeTables-BodyE-Column1-Body1">
+                        <p>Prefix Method (<span style="color: #4F81BD;">Optional</span>)</p>
+                    </td>
+                    <td class="TableStyle-jeTables-BodyD-Column1-Body1">
+                        <p>The dropdown is populated with available methods (i.e. Advanced processes applied at the database level) used to execute configured system level actions prior to applying the Status.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-jeTables-Body-Body2">
+                    <td class="TableStyle-jeTables-BodyE-Column1-Body2">
+                        <p>Postfix Method (<span style="color: #4F81BD;">Optional</span>)</p>
+                    </td>
+                    <td class="TableStyle-jeTables-BodyD-Column1-Body2">
+                        <p>The dropdown is populated by the available methods (i.e. Advanced processes applied at the database level) used to execute configured system level actions after applying the Status.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-jeTables-Body-Body1">
+                    <td class="TableStyle-jeTables-BodyB-Column1-Body1">
+                        <p>Trigger Method (<span style="color: #4F81BD;">Optional</span>)</p>
+                    </td>
+                    <td class="TableStyle-jeTables-BodyA-Column1-Body1">
+                        <p>The dropdown is populated with actions to execute when the Completion Days Out is equal to or less than the completion date. The Trigger Method is used to advance to a ‘next’ Status and validations or additional actions may be configured within it.</p>
+                        <p style="margin-bottom: 0pt;"><span style="font-weight: bold;">Note</span><span style="font-weight: bold;">s</span>: </p>
+                        <ul style="list-style-type: disc;margin-left: 36pt;">
+                            <li class="ListParagraph" style="list-style-type: disc;">If multiple ‘next’ Statuses exist, the Trigger Method should contain a process to determine which ‘next’ Status is the most appropriate using the Transition ‘Weight’ column.</li>
+                            <li class="ListParagraph" style="list-style-type: disc;">If a status has negative Completion Days Out values, the Workflow State Manager Heartbeat Task (see page <MadCap:xref href="Workflow Heartbeat.htm#_Ref499813240" class="PageNumberOnly">1</MadCap:xref>) stops checking the status on the furthest negative day out specified. If the heartbeat task does not run on that specific day, the trigger method will never automatically execute.  </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+    </head>
+    <body>
+        <h1 >Create a Transition</h1>
+        <p>Within the Transition screen, click <span style="font-weight: bold;">New</span> enter the required fields and click<span style="font-weight: bold;"> Save</span>. </p>
+        <table class="TableStyle-jeTables" cellspacing="0" style="mc-table-style: url('../../Resources/TableStyles/jeTables.css');">
+            <thead>
+                <tr class="TableStyle-jeTables-Head-Header1">
+                    <th class="TableStyle-jeTables-HeadE-Column1-Header1">
+                        <p style="font-weight: bold;">Field</p>
+                    </th>
+                    <th class="TableStyle-jeTables-HeadD-Column1-Header1">
+                        <p style="font-weight: bold;">Description</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-jeTables-Body-Body1">
+                    <td class="TableStyle-jeTables-BodyE-Column1-Body1">
+                        <p>Transition Name (<span style="color: #4F81BD;">Optional</span>) </p>
+                    </td>
+                    <td class="TableStyle-jeTables-BodyD-Column1-Body1">
+                        <p>Enter a descriptive label to summarize the purpose of the Status Transition. If left blank, the system will populate the field with ‘Start Node Name -&gt; End Node Name’.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-jeTables-Body-Body2">
+                    <td class="TableStyle-jeTables-BodyE-Column1-Body2">
+                        <p>Start Node (<span style="color: #FF0000;">Required</span>)</p>
+                    </td>
+                    <td class="TableStyle-jeTables-BodyD-Column1-Body2">
+                        <p>The dropdown is populated with all configured Statuses. Select the Status to start from for a specific Transition.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-jeTables-Body-Body1">
+                    <td class="TableStyle-jeTables-BodyE-Column1-Body1">
+                        <p>End Node (<span style="color: #FF0000;">Required</span>)</p>
+                    </td>
+                    <td class="TableStyle-jeTables-BodyD-Column1-Body1">
+                        <p>The dropdown is populated with all configured Statuses. Select the ‘next’ Status to end, from the start Status, for a specific Transition.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-jeTables-Body-Body2">
+                    <td class="TableStyle-jeTables-BodyE-Column1-Body2">
+                        <p>Users/Roles (<span style="color: #FF0000;">Required</span>)</p>
+                    </td>
+                    <td class="TableStyle-jeTables-BodyD-Column1-Body2">
+                        <p>The window is populated with Users and Roles configured with access to the applicable solution. Select the Users and Roles that will have permission to execute the transition from the Start Status to the End Status. </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-jeTables-Body-Body1">
+                    <td class="TableStyle-jeTables-BodyB-Column1-Body1">
+                        <p>Weight (<span style="color: #4F81BD;">Optional</span>)</p>
+                    </td>
+                    <td class="TableStyle-jeTables-BodyA-Column1-Body1">
+                        <p>The Weight field can be used, in conjunction with a Status’ Trigger Method where more than one End Node is defined from a single Start Node. Within the Start Node’s Trigger Method, validation criteria should be defined, by JustEnough Professional Services, to determine how the system should transition based on the Weight value.<br /><br /><span style="font-weight: bold;font-style: italic;color: #FF0000;font-size: 9pt;">Note</span><span style="font-style: italic;font-size: 9pt;">: Weights are required for Order Header Workflows</span>.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
